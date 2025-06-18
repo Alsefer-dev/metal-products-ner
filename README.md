@@ -13,3 +13,6 @@ Context-aware classification: Distinguishes between "AISI 304" (steel grade) vs 
 Robust to noise: Works with incomplete descriptions and typos
 
 Production pipeline: Includes preprocessing and ML models.
+
+## Performance
+

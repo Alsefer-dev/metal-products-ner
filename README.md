@@ -4,15 +4,41 @@ NER system that automatically extracts 27 types of technical specifications from
 
 ## Key Features
 
-Multi-standard recognition: TU, GOST, EN, DIN, and ISO standards
+### Data Composition
 
-Composite value parsing: Extracts dimensions like "57×3 mm" → (diameter:57, thickness:3)
+70% Manufacturer Data: High-quality structured descriptions
 
-Context-aware classification: Distinguishes between "AISI 304" (steel grade) vs "304 mm" (width)
+20% Marketplace Data: Natural noise for robustness
 
-Robust to noise: Works with incomplete descriptions and typos
+10% Synthetic Data: Controlled error injection
 
-Production pipeline: Includes preprocessing and ML models.
+### Entity Distribution
+
+28 entity types (e.g., product, thickness, standart_gost)
+
+Imbalanced classes (product=18.05% vs package=0.10%)
+
+### Technical Specs
+
+Format: JSONL
+
+Avg. tokens/description: 9-10
+
+Entity density: 72% of tokens
+
+### Benchmark Results
+
+Best model: CNN-BiLSTM-LayerNorm (F1=0.97)
+
+### Use Cases
+
+Product catalog automation
+
+Supply chain data extraction
+
+Quality control documentation
+
+All data collected from public sources with ethical compliance.
 
 ## Dataset
 

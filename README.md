@@ -1,6 +1,6 @@
 # metal-products-ner
 
-NER system that automatically extracts 27 types of technical specifications from metal product descriptions using hybrid ML approaches.
+NER system that automatically extracts 28 types of technical specifications from metal product descriptions using hybrid ML approaches.
 
 ## Key Features
 

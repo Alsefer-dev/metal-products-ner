@@ -59,7 +59,7 @@ All data collected from public sources with ethical compliance.
 
 ### Entity type statistics
 
-| Entity               | Type        | Description                              | Value Examples (RUS)          | Count  | % of Total |
+| Entity               | Type        | Description                              | Value Examples (RUS)          | Entity count  | % of Total |
 |----------------------|-------------|------------------------------------------|-------------------------------|--------|------------|
 | **coating**         | General     | Surface treatment/coating               | "оцинкованное", "полимерное"  | 654    | 0.79%      |
 | **color**           | General     | Product color                           | "черный", "RAL 9005"          | 324    | 0.39%      |

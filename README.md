@@ -53,6 +53,7 @@ All data collected from public sources with ethical compliance.
 ### Train/test split
 
 | Split	|Total tokens |	Entity tokens	| Entity %	|
+|------|--------------|---------|----|
 |Train	| 138 209	| 100 365	| 72.6% |
 |Test	| 59 501 |	43 025	| 72.3%	|
 

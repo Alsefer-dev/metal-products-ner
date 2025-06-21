@@ -115,7 +115,7 @@ All data collected from public sources with ethical compliance.
 | BiLSTM+Attention+LayerNorm+Linear     | PyTorch   | 1BiLSTM, 4-head Attn, LayerNorm          | 0.97      | 0.95   | 0.96 | 727                 | 11,852                  |
 | 2BiLSTM+Attention+LayerNorm+Linear    | PyTorch   | 2BiLSTM, 4-head Attn, LayerNorm          | 0.98      | 0.95   | 0.96 | 1,005               | 7,206                   |
 | **Transformer**                       |           |                                          |           |        |      |                     |                         |
-| Transformer                           | spaCy     | DeepPavlov/rubert-base-cased             | -         | -      | -    | -                   | -                       |
+| Transformer                           | spaCy     | DeepPavlov/rubert-base-cased             | 0.96         | 0.94      | 0.95    | -                   | -                       |
 
 **Key Findings**:
 1. **Best F1**: CNN+BiLSTM+LayerNorm+Linear (0.97)
